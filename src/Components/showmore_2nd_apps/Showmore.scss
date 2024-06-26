@@ -1,0 +1,39 @@
+.Apps_page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 40px;
+  .app_cont_each {
+    width: 110px;
+    height: 150px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 15px;
+
+    .app_img {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 75px;
+        height: 75px;
+        border-radius: 40px;
+        margin-top: 15px;
+      }
+    }
+    .app {
+      h4 {
+        text-align: center;
+        color: #5870a6;
+        margin-top: 15px;
+      }
+    }
+  }
+}

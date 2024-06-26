@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.pinimg.com/736x/5c/87/06/5c870644ae73572b4b98a2cb1bac0a3b.jpg",
+    "name": "MetaMask"
+  },
+
+  {
+    "id": 2,
+    "img": "https://i.pinimg.com/736x/4c/bc/eb/4cbceb4dd654ef452b200e45659feee1.jpg",
+    "name": "PancakeSwap"
+  },
+
+  {
+    "id": 3,
+    "img": "https://i.pinimg.com/736x/2a/98/d7/2a98d7c3b241b50f73f799b68a1eb501.jpg",
+    "name": "Trust Wallet"
+  },
+  {
+    "id": 4,
+    "img": "https://i.pinimg.com/736x/b0/b0/eb/b0b0eb85850a8f42e17eb84c56564460.jpg",
+    "name": "Wallet Connect"
+  },
+  {
+    "id": 5,
+    "img": "https://i.pinimg.com/564x/b3/d4/74/b3d47427a2c6978d4c327f8e09ff9299.jpg",
+    "name": "Coinbase"
+  },
+  {
+    "id": 6,
+    "img": "https://i.pinimg.com/564x/79/38/4f/79384f2386e4229cbc5d7bdb52190012.jpg",
+    "name": " Blockchain "
+  },
+  {
+    "id": 7,
+    "img": "https://i.pinimg.com/564x/9f/af/56/9faf561e1bbd427d5d739b539249357f.jpg",
+    "name": "Binance Smart Chain"
+  },
+  {
+    "id": 8,
+    "img": "https://i.pinimg.com/564x/48/a5/df/48a5dfc568f528bd163a16c8626dea34.jpg",
+    "name": "BNB"
+  },
+  {
+    "id": 9,
+    "img": "https://i.pinimg.com/564x/0b/46/ae/0b46aebaf763c351bd77682b500f0107.jpg",
+    "name": "Polkadot"
+  },
+  {
+    "id": 10,
+    "img": "https://i.pinimg.com/564x/7d/c7/c5/7dc7c5b2d6473cfa1ff6db7144fd4439.jpg",
+    "name": "XRP"
+  },
+  {
+    "id": 11,
+    "img": "https://i.pinimg.com/564x/19/30/9e/19309e05d37dcb62b3fd434ebcd12758.jpg",
+    "name": "Stellar"
+  },
+  {
+    "id": 12,
+    "img": "https://i.pinimg.com/564x/9a/ca/86/9aca86ab3569e86bca397c546c1426d6.jpg",
+    "name": "Tezos"
+  },
+  {
+    "id": 13,
+    "img": "https://i.pinimg.com/originals/56/33/24/56332464fc1ac3d430092993a9897f6b.jpg",
+    "name": "Theta"
+  },
+  {
+    "id": 14,
+    "img": "https://i.pinimg.com/564x/78/73/db/7873dbfb7f858ee71736cc5df84805e1.jpg",
+    "name": "Tron"
+  },
+  {
+    "id": 15,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-1Ky9iE9zs_LY2M_LY2AJSQE2Wu1WbMTErAu_aKY71g&s",
+    "name": "Cosmos"
+  },
+  {
+    "id": 16,
+    "img": "  https://i.pinimg.com/280x280_RS/65/de/fa/65defa57385967a85a485e9d7d57d4e4.jpg ",
+    "name": "    Wsabi"
+  },
+  {
+    "id": 17,
+    "img": " https://i.pinimg.com/736x/31/12/ab/3112abab03d9181d2bc11082247ff3b2.jpg  ",
+    "name": " Xverse   "
+  },
+  {
+    "id": 18,
+    "img": " https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/3fe89cdd-ab48-4064-9f49-6d13f353a9a5.png?w=90&h=90&fit=max&dpr=3&auto=format&q=50",
+    "name": "  Coinomi  "
+  },
+  {
+    "id": 19,
+    "img": "https://framerusercontent.com/images/WVSJ1jXs9vuM0ip5WiphitkieOc.png ",
+    "name": "   Nova "
+  },
+  {
+    "id": 20,
+    "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQtWIxqLdSptw7l2Disde0WVO5iyHz7VG8ElEnE5FtjA&s",
+    "name": "  Petra  "
+  },
+  {
+    "id": 21,
+    "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZYz3oYeB7PoXuorP1cFw59DdLw65rx8W57R9Ty_NpnQ&s",
+    "name": "  Xdefi  "
+  },
+  {
+    "id": 22,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfxROruh2EyVJWYor2WgRB_HQRAY4De5w98w&s ",
+    "name": " Komodo   "
+  },
+  {
+    "id": 23,
+    "img": "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdy5PdwSPPBt0jaFFakrHyPlAWv6OBVVTpA&s ",
+    "name": " Cosmostation   "
+  },
+  {
+    "id": 24,
+    "img": "  https://pbs.twimg.com/profile_images/1675922047262773248/R94-CmGU_400x400.jpg ",
+    "name": " Ordinals   "
+  },
+  {
+    "id": 25,
+    "img": "  https://pbs.twimg.com/profile_images/1783684062546362368/9XNPIwXJ_200x200.png ",
+    "name": " Leather  "
+  },
+
+  {
+    "id": 26,
+    "img": "https://i.pinimg.com/736x/18/20/b1/1820b153c80c50788a65d7ddd0c8ac09.jpg",
+    "name": "Kava"
+  },
+  {
+    "id": 27,
+    "img": "https://i.pinimg.com/564x/78/42/c9/7842c969174a9442205a4becd0798cf4.jpg",
+    "name": "Filecoin"
+  },
+  {
+    "id": 28,
+    "img": "https://i.pinimg.com/564x/e5/ab/b4/e5abb4300d2acdd8cbe8611c95d543b2.jpg",
+    "name": "Solana"
+  },
+  {
+    "id": 29,
+    "img": "https://i.pinimg.com/736x/4c/11/a3/4c11a391f28c146e938ac77b5fc8012d.jpg",
+    "name": "Ethereum Classic"
+  },
+  {
+    "id": 30,
+    "img": "https://i.pinimg.com/564x/63/d2/a6/63d2a63501ed429cf8d00352562dae02.jpg",
+    "name": "Zilliqa"
+  },
+  {
+    "id": 31,
+    "img": "https://i.pinimg.com/736x/d0/ca/7a/d0ca7a4bd1e623bf76ad12f20ad63b54.jpg",
+    "name": "Elrond"
+  },
+  {
+    "id": 32,
+    "img": "https://i.pinimg.com/564x/73/19/b3/7319b390ae93c0fe13571b3e9fbeb552.jpg",
+    "name": "Waves"
+  },
+  {
+    "id": 33,
+    "img": "https://i.pinimg.com/736x/44/c9/87/44c98799b810858e7f554726761bddd7.jpg",
+    "name": "OKX"
+  },
+  {
+    "id": 34,
+    "img": "https://s2.coinmarketcap.com/static/img/coins/200x200/2566.png",
+    "name": "Ontology"
+  },
+  {
+    "id": 35,
+    "img": "https://i.pinimg.com/736x/82/4d/ca/824dca0371c07c356e51660d1ecfd893.jpg",
+    "name": "MEW Wallet"
+  },
+  {
+    "id": 36,
+    "img": "https://i.pinimg.com/564x/0e/db/6a/0edb6ab066459dc05e33daad5dd2e5fc.jpg",
+    "name": "Uniswap"
+  },
+  {
+    "id": 37,
+    "img": "https://i.pinimg.com/736x/10/36/80/1036804b65e8ff1c41a4ac89af0d82c5.jpg",
+    "name": "Parsiq"
+  },
+  {
+    "id": 38,
+    "img": "https://i.pinimg.com/736x/a4/9d/8e/a49d8ed8137a5f5a33a2a50ab6a224e4.jpg",
+    "name": "Harmony"
+  },
+  {
+    "id": 39,
+    "img": "https://i.pinimg.com/564x/df/47/44/df474497394ef63870c2f4923008e590.jpg",
+    "name": "Phantom"
+  },
+  {
+    "id": 40,
+    "img": "https://pbs.twimg.com/profile_images/1601137409533542406/YGrjxRku_400x400.jpg",
+    "name": "   Adex"
+  }
+]

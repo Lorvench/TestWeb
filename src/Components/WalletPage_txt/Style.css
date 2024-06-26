@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #587087;
+}
+
+p {
+  padding: 10px 20px 10px 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  color: #587087;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    text-align: justify;
+  }
+}/*# sourceMappingURL=Style.css.map */

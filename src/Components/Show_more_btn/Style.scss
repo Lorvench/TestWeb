@@ -1,0 +1,22 @@
+.shows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  .showmore_btn {
+    width: 28em;
+    height: 4em;
+    font-family: "Roboto", sans-serif;
+
+    margin-bottom: 50px;
+
+    background-color: #2a498d;
+    border: 1px solid #2a498d;
+    color: white;
+    border-radius: 20px;
+  }
+  button:hover {
+    background-color: #1d8bcb;
+    transition: 100ms;
+  }
+}
