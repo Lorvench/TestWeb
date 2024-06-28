@@ -1,33 +1,21 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
-const CryptoRankWidget = () => {
-  useEffect(() => {
-    // Load the CryptoRank widget script
-    const script = document.createElement('script');
-    script.src = "https://cryptorank.io/widget/marquee.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    // Cleanup function to remove the script when the component unmounts
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
+const CoinGeckoWidget = () => {
   return (
-    <div
-      id="cr-widget-marquee"
-      data-coins="bitcoin,ethereum,tether,ripple,cardano"
-      data-theme="dark"
-      data-show-symbol="true"
-      data-show-icon="true"
-      data-show-period-change="true"
-      data-period-change="24H"
-      data-api-url="https://api.cryptorank.io/v0"
-    >
-      <a href="https://cryptorank.io">Coins by Cryptorank</a>
+    <div>
+      <Helmet>
+        <script src="https://widgets.coingecko.com/gecko-coin-price-marquee-widget.js"></script>
+      </Helmet>
+      <gecko-coin-price-marquee-widget
+        locale="en"
+        dark-mode="true"
+        transparent-background="false"
+        coin-ids="bitcoin,ethereum"
+        initial-currency="usd">
+      </gecko-coin-price-marquee-widget>
     </div>
   );
 };
 
-export default CryptoRankWidget;
+export default CoinGeckoWidget;

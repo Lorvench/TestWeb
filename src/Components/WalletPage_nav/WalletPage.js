@@ -34,7 +34,7 @@ const WalletPage = () => {
           <li>
             {" "}
             <b>
-              <NavLink to="/Contact_info">Connect</NavLink>
+              <NavLink to="/Contact">Connect</NavLink>
             </b>
           </li>
         </ul>

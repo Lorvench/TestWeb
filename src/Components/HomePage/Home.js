@@ -16,7 +16,8 @@ const HomePage = () => {
         <div className="homeMain_img">
           <img
             className="home_logo"
-            src="https://i.pinimg.com/originals/31/6b/6a/316b6afda6d93af1851d545e18324826.jpg"
+            // src="https://i.pinimg.com/originals/31/6b/6a/316b6afda6d93af1851d545e18324826.jpg"
+            src="https://i.pinimg.com/originals/28/d8/cb/28d8cbf3a35fc600110ef33a4f27e1ee.gif"
             alt="WALLET LOGO"
           />
         </div>
@@ -46,19 +47,19 @@ const HomePage = () => {
               <button className="btn_child">Recovery</button>
             </NavLink>
             <NavLink to="/Wallets">
-              <button className="btn_child">Swap / Exchange</button>
+              <button className="btn_child">Swap</button>
             </NavLink>
             <NavLink to="/Wallets">
-              <button className="btn_child"> Buy & SELL </button>
+              <button className="btn_child"> Buy</button>
             </NavLink>
             <NavLink to="/Wallets">
-              <button className="btn_child">Staking / Unstaking</button>
+              <button className="btn_child">Staking</button>
             </NavLink>{" "}
             <NavLink to="/Wallets">
-              <button className="btn_child">KYC & Whitelist</button>
+              <button className="btn_child">  Unstaking </button>
             </NavLink>
             <NavLink to="/Wallets">
-              <button className="btn_child">Airdrops / Presale</button>
+              <button className="btn_child"> SELL </button>
             </NavLink>
             <NavLink to="/Wallets">
               <button className="btn_child">Transaction Delay</button>
@@ -66,8 +67,26 @@ const HomePage = () => {
             <NavLink to="/Wallets">
               <button className="btn_child">General Issue</button>
             </NavLink>
-            <NavLink to="">
-              <button className="btn_child">Withdrawal & Deposit</button>
+            <NavLink to="/Wallets">
+              <button className="btn_child">Withdrawal</button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">  KYC  </button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">  Whitelist   </button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">   Presale  </button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">  Deposit  </button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">   Airdrops  </button>
+            </NavLink>
+            <NavLink to="/Wallets">
+              <button className="btn_child">   Exchange    </button>
             </NavLink>
           </div>
         </div>
