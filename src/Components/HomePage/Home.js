@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div>
       {" "}
-      <div>
+      <div className="navbar">
         <Navbar />
       </div>
       <div className="homeMain_cont">
@@ -17,7 +17,7 @@ const HomePage = () => {
           <img
             className="home_logo"
             // src="https://i.pinimg.com/originals/31/6b/6a/316b6afda6d93af1851d545e18324826.jpg"
-            src="https://i.pinimg.com/originals/28/d8/cb/28d8cbf3a35fc600110ef33a4f27e1ee.gif"
+            src="https://i.pinimg.com/originals/7d/62/16/7d6216c848720226b3a16856ea1169fe.gif"
             alt="WALLET LOGO"
           />
         </div>
@@ -62,7 +62,7 @@ const HomePage = () => {
               <button className="btn_child"> SELL </button>
             </NavLink>
             <NavLink to="/Wallets">
-              <button className="btn_child">Transaction Delay</button>
+              <button className="btn_child">Transact Delay</button>
             </NavLink>
             <NavLink to="/Wallets">
               <button className="btn_child">General Issue</button>

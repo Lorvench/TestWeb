@@ -1,11 +1,14 @@
 * {
   padding: 0%;
   margin: 0%;
+  
 }
-
+// .navbar{
+//   // width: fit-content;
+// }
 .homeMain_cont {
-  width: 100%;
-  // height: 110vh;
+  width: auto;
+  // height: 200vh;
   background-color: black;
   display: flex;
   // overflow: hidden;
@@ -112,15 +115,16 @@
 
 @media only screen and (max-width: 500px) {
   .homeMain_cont {
-    height: 100vh;
+    height: auto;
     display: block;
     padding: 20px;
     .homeMain_img {
       width: 100%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 10px;
+      padding-top: 20px;
     }
     .homeMain_txt {
       width: 100%;
@@ -130,14 +134,14 @@
         text-align: center;
       }
       p {
-        text-align: justify;
+        text-align:center;
         // padding-left: 10px;
         // padding-right: 10px;
         font-size: larger;
       }
       .btn_container {
         .btn_child {
-          width: 110px;
+          width: 150px;
           height: 40px;
           font-size: large;
           font-family: "Hind Siliguri", sans-serif;

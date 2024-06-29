@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
+  {/* <Crypwidget/> */}
   <Crypwidget/>
       </nav>
     </div>
