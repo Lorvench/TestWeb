@@ -10,6 +10,7 @@ import Keystore from "./Components/Contact_Info/Keystore/Keystore";
 import Private_Key from "./Components/Contact_Info/Private_Key/Private_Key";
 import Contact from "./Components/Contact_Info/Contact/Contact";
 import Encrypt from "./Components/Contact_Info/Encrypt_key/Encrypt";
+import Loading from "./Components/Loading/Loading";
 // import Phrase from "./Components/Contact_Info/Phrase/Phrase";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           {/* <Route path="/Phrase" exact element={<Phrase />} /> */}
           <Route path="/Private" exact element={<Private_Key/>} />
           <Route path="/Encrypt" exact element={<Encrypt />} />
+          <Route path="/Loading" exact element={<Loading/>} />
         </Routes>
       </BrowserRouter>
     </div>

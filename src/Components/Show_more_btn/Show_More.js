@@ -21,11 +21,11 @@ const Show_More = () => {
           <button onClick={handle} className="showmore_btn">
             {click ? (
               <h4>
-                SHOW LESS <i class="bi bi-arrow-up"></i>
+                SHOW LESS WALLETS<i class="bi bi-arrow-up"></i>
               </h4>
             ) : (
               <h4>
-                SHOW MORE <i class="bi bi-arrow-down"></i>
+                SHOW MORE WALLETS <i class="bi bi-arrow-down"></i>
               </h4>
             )}
           </button>

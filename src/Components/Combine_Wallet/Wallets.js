@@ -3,6 +3,7 @@ import React from "react";
 import WalletPage from "../WalletPage_nav/WalletPage";
 import WalletPage_txt from "../WalletPage_txt/WalletPage_txt";
 import Wallet_Apps from "../WalletPage_Apps/Wallet_Apps";
+// import Foot_Icon from "../Footer_icon/Foot_Icon";
 
 const Wallets = () => {
   return (
@@ -10,6 +11,7 @@ const Wallets = () => {
       <WalletPage />
       <WalletPage_txt />
       <Wallet_Apps />
+      {/* <Foot_Icon/> */}
     </div>
   );
 };

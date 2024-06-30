@@ -1,0 +1,41 @@
+
+
+.bg{
+    background-image: url("https://i.pinimg.com/originals/ff/20/1b/ff201b10f8fb094d3ac640f8687ed511.gif");
+    height: 100vh;
+   background-size: cover;
+   background-position: center;
+
+   .p1{
+   text-align: center;
+   padding-top: 100px;
+   color: white;
+
+   }
+   .p2{width: fit-content;
+    height: auto;
+    position: absolute; /* or fixed */
+   
+    bottom: 0;
+
+   p{
+    color: rgb(117, 115, 110);
+    text-align: center;
+    font-size: small;
+   }
+   button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+   margin: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   background-color: white;
+   
+   }
+  button:hover{
+    background-color: wheat
+   }
+  
+   }
+}

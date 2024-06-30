@@ -6,7 +6,7 @@ import Data from "../Data/Data.json";
 
 import { NavLink } from "react-router-dom";
 import Show_More from "../Show_more_btn/Show_More";
-import Foot_Icon from "../Footer_icon/Foot_Icon";
+// import Foot_Icon from "../Footer_icon/Foot_Icon";
 const Wallet_Apps = () => {
   return (
     <div className="Apps_page">
@@ -27,7 +27,7 @@ const Wallet_Apps = () => {
       ))}
       {/* <div className="sharing_comps"> */}
       <Show_More />
-      <Foot_Icon/>
+      {/* <Foot_Icon/> */}
       {/* </div> */}
     </div>
   );
