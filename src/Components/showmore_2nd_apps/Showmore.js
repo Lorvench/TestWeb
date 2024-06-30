@@ -8,7 +8,7 @@ const Showmore = () => {
     <div className="Apps_page">
       {Show_more.map((app) => (
         <div className="app_cont_each">
-          <NavLink to="/Contact_info">
+          <NavLink to="/Contact">
             <div className="app_img">
               <img src={app.img} alt={app.name} />
             </div>
